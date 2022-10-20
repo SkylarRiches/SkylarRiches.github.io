@@ -9,11 +9,12 @@ a { text-decoration: none;}
 
 .header 
 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 	overflow: hidden;
 	background-color: #000;
   color: #ddd;
-	padding: 25px;
-
 }
 
 body 
@@ -28,34 +29,11 @@ body
 .bold { font-weight: 700;}
 .black { font-weight: 900;}
 
-/* Style the top navigation bar */
-.topnav 
-{
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a 
-{
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover 
-{
-  background-color: rgb(131, 131, 131);
-  color: black;
-}
-
 /* Style the content */
-.content 
+.aboutMe
 {
+  display: flex;
+  justify-content: space-between;
   background-color: #ddd;
   padding: 10px;
 }
@@ -97,4 +75,30 @@ video{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  flex: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+li {
+  float: left;
+  position: relative;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+li a:hover{
+  background-color: rgb(99, 99, 99);
 }
