@@ -13,8 +13,13 @@ a { text-decoration: none;}
   flex-direction: row;
   justify-content: space-between;
 	overflow: hidden;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.8);
   color: #ddd;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
 
 body 
@@ -32,16 +37,16 @@ body
 /* Style the content */
 .aboutMe
 {
-  display: flex;
-  justify-content: space-between;
-  background-color: #ddd;
+  background-color: #272727;
   padding: 10px;
+  color: #ddd;
+  text-align: center;
+  font-size: large;
 }
 
 /* Style the footer */
 .footer 
 {
-
   background-color: #000000;
   color: #ddd;
   font-size: small;
@@ -79,15 +84,14 @@ video{
 
 ul {
   list-style-type: none;
-  margin: auto;
-  flex: auto;
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  float:left;
 }
 li {
   float: left;
-  position: relative;
 }
 
 li a {
@@ -100,5 +104,5 @@ li a {
 }
 
 li a:hover{
-  background-color: rgb(99, 99, 99);
+  background-color: rgba(99, 99, 99, 0.6);
 }
