@@ -44,6 +44,21 @@ body
   font-size: large;
 }
 
+.projectsSection
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.8);
+  color: #ddd;
+}
+
+.projects
+{
+  
+}
+
 /* Style the footer */
 .footer 
 {
