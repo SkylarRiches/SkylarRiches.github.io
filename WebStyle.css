@@ -44,19 +44,67 @@ body
   font-size: large;
 }
 
+.title
+{
+  color:#ddd;
+  text-align: center;
+  font-size: larger;
+}
+
 .projectsSection
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 	overflow: hidden;
-	background-color: rgba(0, 0, 0, 0.8);
   color: #ddd;
 }
 
-.projects
+.project
 {
-  
+  margin: 50px;
+  margin-top: 0px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.project img
+{
+  width: 500px;
+  height: 500px;
+
+  object-fit: cover;
+  object-position: left;
+
+  transition: 0.2s ease;
+}
+
+.project:hover img
+{
+  opacity: 0.3;
+}
+
+.project:hover .overlay
+{
+  opacity: 1;
+}
+
+.overlay
+{
+  width: 500px;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.text
+{
+  background-color:rgba(99, 99, 99, 0.1);
+  color: #ddd;
+  font-size: large;
+  padding: 10px;
 }
 
 /* Style the footer */
