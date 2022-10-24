@@ -67,6 +67,7 @@ body
 
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .project img
@@ -82,7 +83,7 @@ body
 
 .project:hover img
 {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .project:hover .overlay
@@ -92,16 +93,22 @@ body
 
 .overlay
 {
-  width: 500px;
+  width: 100%;
+  height: 100%;
   transition: 0.5s ease;
   opacity: 0;
-  position: absolute;
   text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  background-color:rgba(95, 95, 95, 0.562);
 }
 
 .text
 {
-  background-color:rgba(99, 99, 99, 0.1);
   color: #ddd;
   font-size: large;
   padding: 10px;
