@@ -115,6 +115,10 @@ body
   color: #ddd;
   font-size: large;
   padding: 10px;
+}
+
+.text p
+{
   max-width: 500px;
 }
 
