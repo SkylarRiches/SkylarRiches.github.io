@@ -11,6 +11,7 @@ a { text-decoration: none;}
 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 	overflow: hidden;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -26,7 +27,7 @@ body
 {
   margin: 0;
   font-family: 'Lato';
-  background-color: #070A13;
+  background-color: #0d1120;
 }
 
 .light { font-weight: 200;}
