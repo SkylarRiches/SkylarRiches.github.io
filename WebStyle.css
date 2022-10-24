@@ -43,6 +43,7 @@ body
   color: #ddd;
   text-align: center;
   font-size: large;
+  overflow-wrap: normal;
 }
 
 .title
@@ -114,6 +115,7 @@ body
   color: #ddd;
   font-size: large;
   padding: 10px;
+  max-width: 500px;
 }
 
 /* Style the footer */
